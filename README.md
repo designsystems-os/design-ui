@@ -1,9 +1,7 @@
 <div style="text-align:center;">
   <img src="https://i.ibb.co/KL5bxHs/design-ui-logo.png" style="height:250px;"/>
   <br>
-
-<sub>fully customizable design systems w/ **styled-components** and more...</sub>
-
+  <sub>fully customizable design systems w/ **styled-components** and more...</sub>
 </div>
 <br>
 
