@@ -50,6 +50,8 @@ You can use the styled-components standalone or as wrappers for your React compo
 
 **Docz** ( _.mdx_ ) documentation files are represented in each component folder but can be rearranged to suit your desired project structure
 
+<img src="https://i.ibb.co/Phbpcxq/Screen-Shot-2019-02-23-at-2-37-23-PM.png" alt="Screen-Shot-2019-02-23-at-2-37-23-PM" height="200px;">
+
 You can customize documentation styling in the **doczrc.js** file at the root of the default project
 
 ## **Testing**
