@@ -11,8 +11,6 @@
 [![version](https://img.shields.io/npm/v/@design-ui/styled.svg?style=flat-square)](http://npm.im/@design-ui/styled)
 [![MIT License](https://img.shields.io/npm/l/@design-ui/styled.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
----
-
 ## **Description**
 
 **Design-UI** is a starter template built on top of `create-react-app v2+` to give you the ability to create a design system from scratch with :
