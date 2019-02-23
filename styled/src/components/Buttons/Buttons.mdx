@@ -1,0 +1,48 @@
+---
+name: Button
+route: /components/Buttons
+menu: Components
+---
+
+import { Playground, PropsTable } from 'docz';
+import Button from '.';
+
+# Button
+
+## Description
+
+This is a `<Button />` component.
+
+Buttons come in two flavors:
+
+<Button color="#eee" bg="#6b41d2">
+  Filled
+</Button>
+
+<Button color="#eee" border="1px solid #6b41d2" bg="#fff">
+  Bordered
+</Button>
+
+## Props
+
+<PropsTable of={Button} />
+
+## Basic Usage
+
+<Playground>
+  <Button>Click Me</Button>
+</Playground>
+
+## Use with Children `fn()`
+
+<Playground>
+  {() => {
+    const buttonText = 'Click Me Too'
+
+    return (
+      <Button>{buttonText}</Button>
+    )
+
+}}
+
+</Playground>

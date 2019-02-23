@@ -1,0 +1,53 @@
+{
+  "name": "@design-ui/styled",
+  "version": "1.0.0",
+  "author": "Jazz Lyles <ripley36706@gmail.com> (https://jazz-lyles.com)",
+  "description": "a starter design system with styled-components, react and docz",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "styled-components",
+    "design system",
+    "docz",
+    "jest",
+    "jest-styled-components",
+    "emotion",
+    "stylelint",
+    "babel-plugin-styled-components"
+  ],
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "docs": "docz dev",
+    "eject": "react-scripts eject",
+    "lint:css": "stylelint './src/**/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@emotion/core": "^10.0.7",
+    "babel-plugin-styled-components": "^1.10.0",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "jest-styled-components": "^6.3.1",
+    "react-test-renderer": "^16.8.2",
+    "styled-components": "^4.1.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.2"
+  }
+}
