@@ -1,6 +1,6 @@
 {
   "name": "@design-ui/styled",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "global": true,
   "author": "Jazz Lyles <ripley36706@gmail.com> (https://jazz-lyles.com)",
   "description": "a starter design system with styled-components, react and docz",

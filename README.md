@@ -5,8 +5,6 @@
 </div>
 <br>
 
----
-
 ## **Description**
 
 **Design-UI** is a collection of starter templates built on top of `create-react-app v2+` to give you the ability to create a design system from scratch with:
