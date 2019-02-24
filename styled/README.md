@@ -20,6 +20,40 @@
 - `React v16.8+` ([ _docs_ ](https://reactjs.org/))
 - `Docz` ([ _docs_ ](https://www.docz.site))
 
+## **Getting Started**
+
+### Install the CLI Globally
+
+```bash
+npm install -g @design-ui/styled
+```
+
+### Generate Your Design System
+
+```bash
+design-ui-styled <project_name>
+```
+
+### Run Your Project
+
+To get up and running with your design system:
+
+```bash
+# Install Your Dependencies
+yarn
+
+# Run Your Test Suite
+yarn test
+
+# Lint Your Styled Components
+yarn lint:css
+
+# Serve Your Documentation
+yarn docs
+```
+
+<br />
+
 ## **Styling Components**
 
 You can use the styled-components standalone or as wrappers for your React components that contain additional logic to separate concerns
@@ -68,44 +102,6 @@ The template comes with out-of-the-box testing with `jest` for your React compon
 [Style Linting](https://www.npmjs.com/package/stylelint) is included by default and its configuration can be customized in the **.stylelintrc** file at the root of the project
 
 <br />
-
----
-
-## **Getting Started**
-
-### Install the CLI Globally
-
-```bash
-npm install -g @design-ui/styled
-```
-
-### Generate Your Design System
-
-```bash
-design-ui-styled <project_name>
-```
-
-### Running Your Project
-
-To get up and running with your design system:
-
-```bash
-# Install Your Dependencies
-yarn
-
-# Run Your Test Suite
-yarn test
-
-# Lint Your Styled Components
-yarn lint:css
-
-# Serve Your Documentation
-yarn docs
-```
-
-<br />
-
----
 
 ## **Contributors**
 
