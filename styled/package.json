@@ -1,11 +1,9 @@
 {
   "name": "@design-ui/styled",
   "version": "1.0.7",
-  "global": true,
   "author": "Jazz Lyles <ripley36706@gmail.com> (https://jazz-lyles.com)",
   "description": "a starter design system with styled-components, react and docz",
   "repository": "https://github.com/existenzial/design-ui/tree/master/styled",
-  "license": "MIT",
   "keywords": [
     "react",
     "create-react-app",
@@ -18,43 +16,14 @@
     "stylelint",
     "babel-plugin-styled-components"
   ],
-  "dependencies": {
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "docs": "docz dev",
-    "eject": "react-scripts eject",
-    "lint:css": "stylelint './src/**/*.js'"
-  },
+  "license": "MIT",
   "bin": {
     "design-ui-styled": "bin/design-ui-styled.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "scripts": {
+    "clean": "rm -rf node_modules"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "@emotion/core": "^10.0.7",
-    "babel-plugin-styled-components": "^1.10.0",
-    "docz": "^0.13.7",
-    "docz-theme-default": "^0.13.7",
-    "jest-styled-components": "^6.3.1",
-    "ncp": "^2.0.0",
-    "react-test-renderer": "^16.8.2",
-    "styled-components": "^4.1.3",
-    "stylelint": "^9.10.1",
-    "stylelint-config-recommended": "^2.1.0",
-    "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-processor-styled-components": "^1.5.2"
+  "dependencies": {
+    "ncp": "^2.0.0"
   }
 }

@@ -1,6 +1,6 @@
 /* ./lib/index.js */
-const fs = require('fs');
 const ncp = require('ncp').ncp;
+const fs = require('fs');
 
 /**
  * Console Extensions
@@ -8,6 +8,7 @@ const ncp = require('ncp').ncp;
 console.line = console.log.bind(console, '\n---');
 console.fix = console.log.bind(console, '\n🔧 ');
 console.derp = console.log.bind(console, '\n💥 ');
+console.genie = console.log.bind(console, '\n🧞 ');
 console.created = console.log.bind(console, '\n🎉 ');
 
 /**
@@ -20,7 +21,7 @@ const fixPackageJSON = projectName => {
   console.fix('Fixing package.json...');
   console.line();
 
-  const packageJSON = 'package.json';
+  const packageJSON = `${projectName}/package.json`;
   const json = JSON.parse(fs.readFileSync(packageJSON).toString());
 
   json.name = projectName;
@@ -48,11 +49,9 @@ const copyFiles = projectName => {
   const start = Date.now();
 
   try {
-    const options = {
-      filter: /^bin|lib/gi,
-    };
+    console.genie(`Creating Design System - ${projectName}...`);
 
-    ncp(`${__dirname}/../`, projectName, options, err => {
+    ncp(`${__dirname}/../styled-project`, projectName, err => {
       if (err) {
         console.derp();
         return console.error(err);
@@ -63,7 +62,7 @@ const copyFiles = projectName => {
       return console.created(`Done! (${Date.now() - start}ms)\n`);
     });
   } catch (err) {
-    console.derp();
+    console.derp('Error creating new project...\n');
     console.error(err);
   }
 };
