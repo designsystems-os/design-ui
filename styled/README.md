@@ -72,11 +72,19 @@ The template comes with out-of-the-box testing with `jest` for your React compon
 
 ## **Getting Started**
 
-### Installation
+### Install the CLI Globally
 
 ```bash
-npm install @design-ui/styled
+npm install -g @design-ui/styled
 ```
+
+### Generate Your Design System
+
+```bash
+design-ui-styled <project_name>
+```
+
+### Running Your Project
 
 To get up and running with your design system:
 
