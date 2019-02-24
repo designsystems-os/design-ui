@@ -1,6 +1,7 @@
 /* ./lib/index.js */
 const ncp = require('ncp').ncp;
 const fs = require('fs');
+const figlet = require('figlet');
 
 /**
  * Console Extensions
@@ -48,9 +49,28 @@ const fixPackageJSON = projectName => {
 const copyFiles = projectName => {
   const start = Date.now();
 
-  try {
-    console.genie(`Creating Design System - ${projectName}...`);
+  /**
+   * Logo ASCII
+   */
+  figlet.text(
+    'DesignUI',
+    {
+      font: "Patorjk's Cheese",
+      horizontalLayout: 'default',
+      verticalLayout: 'default',
+    },
+    (err, data) => {
+      if (err) {
+        console.derp('Something went wrong...\n');
+        console.dir(err);
+        return;
+      }
+      console.log('\n', data, '\n');
+      console.genie(`Creating Design System - ${projectName}...`);
+    },
+  );
 
+  try {
     ncp(`${__dirname}/../styled-project`, projectName, err => {
       if (err) {
         console.derp();
