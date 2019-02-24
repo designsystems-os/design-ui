@@ -15,7 +15,7 @@ console.created = console.log.bind(console, '\n🎉 ');
  *
  * @param {String} projectName
  */
-const fixPackageJSON = async projectName => {
+const fixPackageJSON = projectName => {
   console.line();
   console.fix('Fixing package.json...');
   console.line();
@@ -32,7 +32,7 @@ const fixPackageJSON = async projectName => {
   delete json.bin;
 
   try {
-    await fs.writeFileSync(packageJSON, JSON.stringify(json, null, 2));
+    fs.writeFileSync(packageJSON, JSON.stringify(json, null, 2));
   } catch (err) {
     console.derp();
     console.error(err);
@@ -44,27 +44,24 @@ const fixPackageJSON = async projectName => {
  *
  * @param {String} projectName
  */
-const copyFiles = async projectName => {
+const copyFiles = projectName => {
   const start = Date.now();
 
   try {
     const options = {
-      filter: /^bin|lib/ig,
+      filter: /^bin|lib/gi,
     };
 
-    await ncp(`${__dirname}/../`, projectName, options, err => {
+    ncp(`${__dirname}/../`, projectName, options, err => {
       if (err) {
         console.derp();
         return console.error(err);
       }
 
-      await fixPackageJSON(projectName);
+      fixPackageJSON(projectName);
 
       return console.created(`Done! (${Date.now() - start}ms)\n`);
     });
-
-    console.log('success!');
-    console.created();
   } catch (err) {
     console.derp();
     console.error(err);
