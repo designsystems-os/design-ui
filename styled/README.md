@@ -8,6 +8,7 @@
 <br>
 <br />
 
+[![downloads](https://img.shields.io/npm/dw/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
 [![version](https://img.shields.io/npm/v/@design-ui/styled.svg?style=flat-square)](http://npm.im/@design-ui/styled)
 [![MIT License](https://img.shields.io/npm/l/@design-ui/styled.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
