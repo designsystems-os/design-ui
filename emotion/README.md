@@ -1,22 +1,22 @@
 <div style="text-align:center;">
-  <img src="https://i.ibb.co/Pmd6nKm/design-ui-logo.png" style="height:250px;"/>
+  <img src="https://i.ibb.co/gg7mgqC/design-ui-logo.png" style="height:250px;"/>
   <br>
 
-<sub>a fully customizable design system w/ **styled-components**</sub>
+<sub>a fully customizable design system w/ **emotion**</sub>
 
 </div>
 <br>
 <br />
 
-[![downloads](https://img.shields.io/npm/dw/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
-[![version](https://img.shields.io/npm/v/@design-ui/styled.svg?style=flat-square)](http://npm.im/@design-ui/styled)
-[![MIT License](https://img.shields.io/npm/l/@design-ui/styled.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![downloads](https://img.shields.io/npm/dw/@design-ui/emotion.svg)](http://npm.im/@design-ui/emotion)
+[![version](https://img.shields.io/npm/v/@design-ui/emotion.svg?style=flat-square)](http://npm.im/@design-ui/emotion)
+[![MIT License](https://img.shields.io/npm/l/@design-ui/emotion.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 ## **Description**
 
 **Design-UI** is a starter template built on top of `create-react-app v2+` to give you the ability to create a design system from scratch with :
 
-- `styled-components` ([ _docs_ ](https://www.styled-components.com/))
+- `emotion` ([ _docs_ ](https://emotion.sh/))
 - `React v16.8+` ([ _docs_ ](https://reactjs.org/))
 - `Docz` ([ _docs_ ](https://www.docz.site))
 
@@ -25,13 +25,13 @@
 ### Install the CLI Globally
 
 ```bash
-npm install -g @design-ui/styled
+npm install -g @design-ui/emotion
 ```
 
 ### Generate Your Design System
 
 ```bash
-design-ui-styled <project_name>
+design-ui-emotion <project_name>
 ```
 
 ### Run Your Project
@@ -56,7 +56,7 @@ yarn docs
 
 ## **Styling Components**
 
-You can use the styled-components standalone or as wrappers for your React components that contain additional logic to separate concerns
+You can use the emotion styled components standalone or as wrappers for your React components that contain additional logic to separate concerns
 
 ### Basic Usage w/ Default Styles
 
@@ -93,7 +93,7 @@ You can customize documentation styling in the **doczrc.js** file at the root of
 
 ## **Testing**
 
-The template comes with out-of-the-box testing with `jest` for your React components (_included with `create-react-app`_) and `jest-styled-components` for your Styled components
+The template comes with out-of-the-box testing with `jest` for your React components (_included with `create-react-app`_) and `jest-styled-components` for your Emotion Styled components
 
 <br />
 

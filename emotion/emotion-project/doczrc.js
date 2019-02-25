@@ -6,7 +6,7 @@ export default {
   },
   themeConfig: {
     logo: {
-      src: 'https://i.ibb.co/Pmd6nKm/design-ui-logo.png',
+      src: 'https://i.ibb.co/gg7mgqC/design-ui-logo.png',
       width: '200px',
     },
     colors: {
