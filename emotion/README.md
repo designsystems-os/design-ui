@@ -93,7 +93,7 @@ You can customize documentation styling in the **doczrc.js** file at the root of
 
 ## **Testing**
 
-The template comes with out-of-the-box testing with `jest` for your React components (_included with `create-react-app`_) and `jest-styled-components` for your Emotion Styled components
+The template comes with out-of-the-box testing with `jest` for your React components (_included with `create-react-app`_) and `jest-emotion` for your Emotion Styled components
 
 <br />
 

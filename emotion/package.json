@@ -8,12 +8,13 @@
     "react",
     "create-react-app",
     "emotion",
+    "emotion styled",
     "design system",
     "docz",
     "jest",
     "jest-emotion",
     "stylelint",
-    "babel-plugin-styled-components"
+    "babel-plugin-emotion"
   ],
   "license": "MIT",
   "bin": {
