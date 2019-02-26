@@ -96,3 +96,9 @@ The template comes with out-of-the-box testing with `jest` for your React compon
 
 [<img src="https://avatars3.githubusercontent.com/u/10368585?s=460&v=4" alt="Jazz Lyles" width="75px;" style="border-radius:50%;" />](https:/jazz-lyles.com/)<br />
 [✉️](mailto:ripley36706@gmail.com)
+
+## **License**
+
+Licensed under MIT
+
+Copyright &copy; 2019 [Jazz Lyles](https://jazz-lyles.com)
