@@ -38,6 +38,9 @@ yarn
 # Run Your Test Suite
 yarn test
 
+# Lint Your Styled Components
+yarn lint:css
+
 # Serve Your Documentation
 yarn docs
 ```
