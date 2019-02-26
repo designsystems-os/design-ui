@@ -1,7 +1,7 @@
 <div style="text-align:center;">
-  <img src="https://i.ibb.co/gg7mgqC/design-ui-logo.png" style="height:250px;"/>
+  <img src="https://i.ibb.co/gg7mgqC/design-ui-logo.png" style="margin:auto;height:250px;"/>
   <br>
-  <sub>a fully customizable design system</sub>
+  <h1>emotion</h1>
 
 [![downloads](https://img.shields.io/npm/dw/@design-ui/emotion.svg)](http://npm.im/@design-ui/emotion)
 [![version](https://img.shields.io/npm/v/@design-ui/emotion.svg?style=flat-square)](http://npm.im/@design-ui/emotion)

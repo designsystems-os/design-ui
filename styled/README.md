@@ -1,7 +1,7 @@
 <div style="text-align:center;">
   <img src="https://i.ibb.co/Pmd6nKm/design-ui-logo.png" style="height:250px;"/>
   <br>
-  <sub>a fully customizable design system</sub>
+  <h1>styled-components</h1>
 
 [![downloads](https://img.shields.io/npm/dw/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
 [![version](https://img.shields.io/npm/v/@design-ui/styled.svg?style=flat-square)](http://npm.im/@design-ui/styled)
