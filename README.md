@@ -1,7 +1,7 @@
 <div style="text-align:center;">
   <img src="https://i.ibb.co/KL5bxHs/design-ui-logo.png" style="height:250px;"/>
   <br>
-  <sub>fully customizable design systems w/ **styled-components** and more...</sub>
+  <sub>fully customizable design systems w/ styled-componentss and more...</sub>
 </div>
 <br>
 
@@ -10,10 +10,10 @@
 **Design-UI** is a collection of starter templates built on top of `create-react-app v2+` to give you the ability to create a design system from scratch with:
 
 - Different **CSS-in-JS** libraries (_`styled-components`, `emotion` etc._)
-- `React v16.8+` ([ _docs_ ](https://reactjs.org/))
-- `Docz` ([ _docs_ ](https://www.docz.site))
+- `React v16.8+` ([ 📖 _docs_ ](https://reactjs.org/))
+- `Docz` ([ 📖 _docs_ ](https://www.docz.site))
 
-## **Getting Started**
+## 🚀 **Getting Started**
 
 ### Install the CLI Globally
 
@@ -47,7 +47,7 @@ yarn docs
 
 <br />
 
-## **Styling Components**
+## 💁🏾 **Styling Components**
 
 You can use the design system components standalone or as wrappers for your React components that contain additional logic to separate concerns
 
@@ -76,7 +76,7 @@ You can use the design system components standalone or as wrappers for your Reac
 />
 ```
 
-## **Documentation**
+## 📃 **Documentation**
 
 **Docz** ( _.mdx_ ) documentation files are represented in each component folder but can be rearranged to suit your desired project structure
 
@@ -84,7 +84,7 @@ You can use the design system components standalone or as wrappers for your Reac
 
 You can customize documentation styling in the **doczrc.js** file at the root of the default project
 
-## **Testing**
+## ✏️ **Testing**
 
 The template comes with out-of-the-box testing with `jest` for your React components (_included with `create-react-app`_) and testing compatible with your specific CSS-in-JS library
 
