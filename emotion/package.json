@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Jazz Lyles <ripley36706@gmail.com> (https://jazz-lyles.com)",
   "description": "a starter design system with emotion, react and docz",
-  "repository": "https://github.com/existenzial/design-ui/tree/master/emotion",
+  "repository": "https://github.com/designsystems-os/design-ui/tree/master/emotion",
   "keywords": [
     "react",
     "create-react-app",
