@@ -1,6 +1,5 @@
 /* ./lib/index.js */
-const ncp = require('ncp').ncp;
-const fs = require('fs');
+const fs = require('fs-extra');
 const figlet = require('figlet');
 
 /**
@@ -70,21 +69,16 @@ const copyFiles = projectName => {
     },
   );
 
-  try {
-    ncp(`${__dirname}/../styled-project`, projectName, err => {
-      if (err) {
-        console.derp();
-        return console.error(err);
-      }
-
-      fixPackageJSON(projectName);
-
-      return console.created(`Done! (${Date.now() - start}ms)\n`);
+  /**
+   * Copy Project Files
+   */
+  fs.copy(`${__dirname}/../styled-project`, projectName)
+    .then(() => fixPackageJSON(projectName))
+    .then(() => console.created(`Done! (${Date.now() - start}ms)\n`))
+    .catch(err => {
+      console.derp('Error creating new project...\n');
+      console.error(err);
     });
-  } catch (err) {
-    console.derp('Error creating new project...\n');
-    console.error(err);
-  }
 };
 
 module.exports = {

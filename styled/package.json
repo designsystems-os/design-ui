@@ -1,6 +1,6 @@
 {
   "name": "@design-ui/styled",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Jazz Lyles <ripley36706@gmail.com> (https://jazz-lyles.com)",
   "description": "a starter design system with styled-components, react and docz",
   "repository": "https://github.com/designsystems-os/design-ui/tree/master/styled",
@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "figlet": "^1.2.1",
-    "ncp": "^2.0.0"
+    "fs-extra": "^7.0.1"
   }
 }
