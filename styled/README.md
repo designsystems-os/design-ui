@@ -3,7 +3,8 @@
   <br>
   <h1>styled-components</h1>
 
-[![downloads](https://img.shields.io/npm/dw/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
+[![downloads](https://img.shields.io/npm/dm/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
+[![downloads](https://img.shields.io/npm/dt/@design-ui/styled.svg)](http://npm.im/@design-ui/styled)
 [![version](https://img.shields.io/npm/v/@design-ui/styled.svg?style=flat-square)](http://npm.im/@design-ui/styled)
 [![MIT License](https://img.shields.io/npm/l/@design-ui/styled.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 

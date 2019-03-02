@@ -70,7 +70,7 @@ const copyFiles = projectName => {
   );
 
   /**
-   * Copy Project Files
+   * Copy + Move Project
    */
   fs.copy(`${__dirname}/../styled-project`, projectName)
     .then(() => fixPackageJSON(projectName))

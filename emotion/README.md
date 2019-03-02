@@ -3,7 +3,8 @@
   <br>
   <h1>emotion</h1>
 
-[![downloads](https://img.shields.io/npm/dw/@design-ui/emotion.svg)](http://npm.im/@design-ui/emotion)
+[![downloads](https://img.shields.io/npm/dm/@design-ui/emotion.svg)](http://npm.im/@design-ui/emotion)
+[![downloads](https://img.shields.io/npm/dt/@design-ui/emotion.svg)](http://npm.im/@design-ui/emotion)
 [![version](https://img.shields.io/npm/v/@design-ui/emotion.svg?style=flat-square)](http://npm.im/@design-ui/emotion)
 [![MIT License](https://img.shields.io/npm/l/@design-ui/emotion.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
